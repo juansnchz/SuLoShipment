@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>SuLo: Envíos Fáciles</title>
 </head>
@@ -18,8 +19,9 @@
 <a href="index.html" class="navbar-brand"><strong class="h3 font-weight-bold">SuLo</strong></a>
 <div class="collapse navbar-collapse" id="navegacion">
   <div class="navbar-nav justify-content-end" style="width: 100%">
-  <a class="nav-item nav-link text-uppercase font-weight-bold text-center" href="index.html">Acerca de <strong>SuLo</strong></a>
-  <a class="nav-item nav-link text-uppercase font-weight-bold text-center" href="#">Cotizar</a>
+  <a class="nav-item nav-link text-uppercase font-weight-bold text-center text-info" href="index.html">Acerca de <strong>SuLo</strong></a>
+  <a class="nav-item nav-link text-uppercase font-weight-bold text-center text-info" href="precios.html">Precios</a>  
+  <a class="nav-item nav-link text-uppercase font-weight-bold text-center text-info" href="cotizar.html">Cotizar</a>
 
   
   </div>
@@ -28,7 +30,12 @@
   
 </nav>  
 
-<img src="assets/img-fondo.png" class="img-fluid text-center" style="width: 100%">
+
+<div class="fondo d-flex justify-content-center align-items-center" style="width: 100%; height: 60vh">
+<h1 class="text-uppercase text-white font-weight-bold text-center mx-5" >Envíos en cualquier momento, asegurados y al mejor precio</h1> 
+  </div>  
+  
+  
 <div class="container px-3">  
   
 <div class="alert alert-info alert-dismissible fade show mt-2" role="alert">
@@ -37,34 +44,48 @@
   </button>
   <p class="mb-0"><strong>¡Nuevo!</strong> Ahora funcionamos en Barranquilla, Cali, Bogotá, Medellín y Bucaramanga </p>
 </div>  
+  
+ 
+  
 <div class="row justify-content-center">
   <div class="col-10 col-md-4">
     <div style="width: 100%" class="justify-content-center">  
       <img class="my-4" src="assets/sulopersonal.png" style="width:40%; margin-left: 30%;">
     </div> 
-    <h4 class="font-weight-bold text-center" id="personas">Soluciones para personas</h4><hr/>
-    <p class="text-center"><strong>SuLo</strong> hace fácil a cualquier persona acceder a servicios logísticos, a domicilio y a precios menores que la competencia, a la vez que contribuye a la reducción de la huella de carbono producida por enviar paquetes.</p>
+    <h4 class="font-weight-bold text-center text-info" id="personas">Soluciones para personas</h4><hr/>
+    <p class="text-center"><strong>SuLo</strong> hace fácil a cualquier persona acceder a servicios logísticos, a domicilio y a precios menores que la competencia, a la vez que contribuye a la reducción de la huella de CO<sup>2</sup> producida por enviar paquetes. <br/> <a href="#" class="text-info">Leer más</a></p>
+ 
   </div> <!-- Col 10-->
   
   <div class="col-10 col-md-4">
     <div style="width: 100%" class="justify-content-center">  
       <img class="my-4" src="assets/sulopyme.png" style="width:50%; margin-left: 25%;">
     </div> 
-    <h4 class="font-weight-bold text-center" id="personas">Soluciones para pymes</h4><hr/>
-    <p class="text-center">Para PYMES que están incursionando al mundo del e-commerce o que quieren difundir el alcance de sus tiendas, <strong>SuLo</strong>  ofrece soluciones a la medida, flexibles y asequibles.</p>  
+    <h4 class="font-weight-bold text-center text-info" id="personas">Soluciones para pymes</h4><hr/>
+    <p class="text-center">Para PYMES que están incursionando al mundo del e-commerce o que quieren difundir el alcance de sus tiendas, <strong>SuLo</strong>  ofrece soluciones a la medida, flexibles y asequibles.<br/> <a href="#" class="text-info">Leer más</a></p>  
+    
   </div> <!-- Col 10-->
   
   <div class="col-10 col-md-4">
     <div style="width: 100%" class="justify-content-center">  
       <img class="my-4" src="assets/sulocorp.png" style="width:80%; margin-left: 10%;">
     </div> 
-    <h4 class="font-weight-bold text-center" id="personas">Soluciones para corporaciones</h4><hr/>
-    <p class="text-center">Empresas que necesitan enviar constantemente paquetes y documentos pueden contar con <strong>SuLo</strong> para el cumplimiento eficiente y sistematizado de cualquier necesidad logística. </p>
+    <h4 class="font-weight-bold text-center text-info" id="personas">Soluciones para corporaciones</h4><hr/>
+    <p class="text-center">Empresas que necesitan enviar constantemente paquetes y documentos pueden contar con <strong>SuLo</strong> para el cumplimiento eficiente y sistematizado de cualquier necesidad logística. <br/> <a href="#" class="text-info">Leer más</a> </p>
+    
   </div> <!-- Col 10-->
 </div> <!--Row justify content center -->   
-
-<div class="row justify-content-center my-3">
-<button class="btn btn-success col-sm-6">¡Cotizar!</button>  
+<blockquote class="blockquote text-center">
+  <p class="mb-0">"<strong>SuLo</strong> es la opción más eficiente en las empresas logísticas. Siempre está cuando se necesita." </p>
+  <footer class="blockquote-footer">Horacio Fernández | <cite title="Source Title">Presidente Invesiones Fernández</cite></footer>
+</blockquote> 
+<blockquote class="blockquote text-center">
+  <p class="mb-0">"Una verdadera empresa del siglo XXI"</p>
+  <footer class="blockquote-footer"><cite title="Source Title">El Espectador</cite></footer>
+</blockquote>   
+  
+<div class="row justify-content-center m-3">
+<button class="btn col-sm-6 font-weight-bold">¡COTIZAR!</button>  
   
 </div>
 
