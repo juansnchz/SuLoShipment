@@ -25,10 +25,22 @@ button{
   
 }
 
-h1, h4{
+
+.fondocotizacion{
+  background-image: url(../assets/cotizacion.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  
+}
+
+h1, h4, label{
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1{
   text-shadow: 1px 1px 1px  gray;
+}
+
+label{
+  margin-bottom: 0;
 }

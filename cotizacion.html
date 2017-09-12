@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Cotizar SuLo</title>
+</head>
+<body>
+
+  
+<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navegacion" aria-controls="navegacion" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+  
+<a href="index.html" class="navbar-brand"><strong class="h3 font-weight-bold">SuLo</strong></a>
+<div class="collapse navbar-collapse" id="navegacion">
+  <div class="navbar-nav justify-content-end" style="width: 100%">
+  <a class="nav-item nav-link text-uppercase font-weight-bold text-center " href="index.html">Acerca de <strong>SuLo</strong></a>
+  <a class="nav-item nav-link text-uppercase font-weight-bold text-center " href="precios.html">Precios</a>    
+  <a class="nav-item nav-link text-uppercase font-weight-bold text-center active" href="cotizacion.html">Cotizar</a>
+
+  
+  </div> <!--Navbar Nav -->
+  
+  </div> <!-- Navbar-->  
+  
+</nav> <!--Nav--> 
+
+<div class="fondocotizacion d-flex justify-content-center align-items-center" style="width: 100%; height: 60vh">
+<h1 class="text-uppercase text-white font-weight-bold text-center mx-5" >¡Tenemos los precios más bajos y el mejor servicio!</h1> 
+  </div>  
+<div class="container px-3">  
+  
+ <h3 class="text-center font-weight-bold mt-4 bg-info text-white p-2 rounded" >COTICE SU ENVÍO</h3>
+  
+<form class="mt-4">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault01">Nombre completo</label>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="Mi nombre es..." value="" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault02">E-mail</label>
+      <input type="email" class="form-control" id="validationDefault02" placeholder="Mi correo electrónico es..." value="" required>
+    </div>
+    
+  </div>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault03">Ciudad de origen</label>
+      <input type="text" class="form-control" id="validationDefault03" placeholder="Quiero que recojan en..." required>
+      <div class="invalid-feedback">
+        
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault04">Ciudad de destino</label>
+      <input type="text" class="form-control" id="validationDefault04" placeholder="Quiero que lleven mi paquete a..." required>
+      <div class="invalid-feedback">
+        
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault05">Peso aproximado del envío (kg)</label>
+      <input type="text" class="form-control" id="validationDefault05" placeholder="Mi envío pesa..." required>
+      <div class="invalid-feedback">
+       
+      </div>
+      
+    </div>
+    
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault06">Tamaño del envío</label>
+      <select class="form-control">
+        <option>Envío suave &#40;&le; 3cm de ancho &#41;</option>
+        <option>Envío pequeño &#40;&le; 10 litros &#41;</option>
+        <option>Envío mediano &#40;&le; 25 litros &#41;</option>
+        <option>Envío grandes &#40;&le; 50 litros &#41;</option>
+        <option>Envío XL &#40;&ge; 1 metro cúbico &#41;</option>
+      </select>
+      <div class="invalid-feedback">
+       
+      </div>
+      
+    </div>
+    
+    
+    <div class="col-md-12 mb-3">
+      
+       <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Deseo que SuLo me ayude con el empaque
+    </label>
+  </div>
+      
+      
+    </div>
+    
+    
+    
+  </div>
+<div class="row justify-content-center mb-0">
+  <button class="btn btn-info col-8 mb-0 py-2" type="submit" data-toggle="modal" data-target="#confirmacion"><h5 class="font-weight-bold mb-0">Enviar</h5></button> </div>
+</form>  
+ 
+<!-- Modal -->
+<div class="modal fade" id="confirmacion" tabindex="-1" role="dialog" aria-labelledby="confirmacion" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">¡Gracias por tu interés!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        En pocos minutos recibirás la cotización exacta para los servicios que requeriste. Si necesitas más información <a href="tel:+573004562342" class="text-info">contáctanos</a> y con gusto te ayudaremos. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+</div><!-- content container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
